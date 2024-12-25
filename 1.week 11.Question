@@ -1,0 +1,15 @@
+#How to write a Python program that finds the largest of three numbers entered by a user?
+
+first= int(input( "Write a number:"))
+second = int(input (" Write another number :"))
+third = int(input(" Write one another number:"))
+
+
+if first > second and third:
+    print (" first is the largest number")
+
+elif second > first and third:
+    print (" second is the largest number ")
+
+else:
+    print ("third is the largest number")

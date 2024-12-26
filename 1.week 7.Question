@@ -1,0 +1,10 @@
+#### How to create a loop that calculates the Fibonacci sequence and returns the result as a list containing numbers up to a certain limit?
+fb = [1,1]
+fb_index = 2
+fb_son = 0
+while len(str(fb_son)) < 100:
+    fb.append(fb[fb_index-2]+fb[fb_index-1])
+    fb_son = fb[fb_index-2]+fb[fb_index-1]
+    fb_index += 1
+print(fb_index)
+print (fb_son)

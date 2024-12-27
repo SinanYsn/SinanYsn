@@ -4,11 +4,10 @@ first= int(input( "Write a number:"))
 second = int(input (" Write another number :"))
 third = int(input(" Write one another number:"))
 
-
-if first > second and third:
+if first > second and first>third:
     print (" first is the largest number")
 
-elif second > first and third:
+elif second > first and first> third:
     print (" second is the largest number ")
 
 else:

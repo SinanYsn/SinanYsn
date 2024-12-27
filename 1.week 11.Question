@@ -7,7 +7,7 @@ third = int(input(" Write one another number:"))
 if first > second and first>third:
     print (" first is the largest number")
 
-elif second > first and first> third:
+elif second > first and second> third:
     print (" second is the largest number ")
 
 else:
